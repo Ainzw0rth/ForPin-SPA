@@ -1,170 +1,18 @@
-/* NAVBAR */
-/* button logo */
-.logo_section {
-  grid-area: logo;
-  display: inline-grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 10px;
-}
-  
-.logo {
-  width: 52px;
-  height: 52px;
-  flex-shrink: 0;
-  background-color: transparent;
-  border-radius: 50%;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-  
-.app_logo {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-}
-  
-/* home and post button */
-.home_button, .post_button {
-  border-radius: 10px;
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-}
-  
-.nav_buttons_container {
-  margin: auto;
-  justify-content: space-between;
-  display: inline-grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 5px;
-}
-
-/* search bar */
-.search_section {
-  grid-area: search;
-}
-
-.search-bar {
-  width: 60vw;
-  width: 60vw;
-  height: 37px;
-  border-radius: 30px;
-  background: #1F1F1F;
-  color: white;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  display: flex;
-  z-index: 1;
-  margin-top: 5px;
-}
-
-.search-box {
-  width: 75%;
-  padding: 1rem;
-  padding-right: 2rem;
-}
-
-.search_symbol {
-  padding-left: 1rem;
-}
-
-.search-bar input {
-  background: transparent;
-  flex: 1;
-  border: 0;
-  outline: none;
-  color: white;
-}
-
-.navbar {
-  height: 70px;
-  padding: 5px;
-  display: grid;
-  grid-template-areas:
-      'logo search profile'
-      'filter filter filter';
-  z-index: 1;
-  place-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.user_detail_container{
-  display: flex;
-  gap: 15px;
-  padding-left: 10px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
-
-.profile_button {
-  width: 52px;
-  height: 52px;
-  flex-shrink: 0;
-  background-color: transparent;
-  border-radius: 50%;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-.dropdown_symbol {
-  width: 26px;
-  height: 26px;
-  padding: 10px;
-  margin-left: 10px;
-  background-color: transparent;
-  border: none;
-  border-radius: 15px;
-}
-
-.dropdown_symbol:hover, .home_button:hover, .post_button:hover {
-  background-color: gray;
-}
-
-.logo:hover, .profile_button:hover {
-  opacity: 50%;
-} 
-
-.settings-dropdown {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.menusdropdown {
-  display: none;
-  position: absolute;
-  background-color: #1F1F1F;
-  overflow: auto;
-  z-index: 1;
-  border-radius: 15px;
-}
-
-.menusdropdown a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-} 
-
-.profile_section {
-  grid-area: profile;
-  display: inline-grid;
-  grid-template-columns: auto auto;
-}
-
 .post_canvas {
+  width: 100%;
   display: flex;
   align-items: center;
   align-self: center;
   justify-content: center;
 }
 
+.post_canvas_scrollable {
+  overflow: auto;
+  height: 89.6vh;
+}
+
 .post_container {
-  width: 400px;
+  width: 380px;
   display: grid;
   background-color: #181818;
   border-radius: 10px;
@@ -173,7 +21,7 @@
 }
 
 .post_media {
-  width: 400px;
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -190,7 +38,13 @@
 }
 
 .post_caption {
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post_description {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .post_caption_detail {
@@ -209,4 +63,46 @@
 
 .user_detail_profile_name{
   font-size: 12px;
+}
+
+.prev_button, .next_button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev_button {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next_button {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev_button:hover, .next_button:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.media_index {
+  display: none;
+}
+
+.media_slideshow {
+  display: none;
+}
+
+.media_container {
+  position: relative;
+  margin: auto;
 }
