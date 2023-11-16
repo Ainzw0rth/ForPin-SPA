@@ -153,6 +153,11 @@
   cursor: pointer;
 } 
 
+.menusdropdown a:hover {
+  background-color: gray;
+} 
+
+
 .profile_section {
   grid-area: profile;
   display: inline-grid;

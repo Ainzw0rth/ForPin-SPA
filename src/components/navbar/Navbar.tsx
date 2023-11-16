@@ -31,6 +31,11 @@ function Navbar() {
         window.location.href ='http://localhost:5173/search';
     }
 
+    function loggingOut() {
+        localStorage.clear();
+        window.location.href = "http://localhost:5173/login";
+    }
+
     return (
         <div className='navbar'>
             <div className="logo_section">
@@ -53,7 +58,7 @@ function Navbar() {
             </div>
             <div className="profile_section">
                 <button className="profile_button" id="profile-button">
-                    <img src="profile pic.gif" className="app_logo" alt="ForPin Logo" />
+                    <img src={localStorage.getItem("user_profile")} className="app_logo" alt="ForPin Logo" />
                 </button>
                 <div className="settings-menu">
                     <button className="settings-dropdown" onClick={toggleDropdown}>
@@ -61,7 +66,7 @@ function Navbar() {
                     </button>
                     <div id="menus-from-dropdown" className="menusdropdown">
                         <a id="request" onClick={goToReq}>Requests</a>
-                        <a id="log-out">Log out</a>
+                        <a id="log-out" onClick={loggingOut}>Log out</a>
                     </div>
                 </div>
             </div>

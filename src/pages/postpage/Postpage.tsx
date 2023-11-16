@@ -129,7 +129,7 @@ function Postpage() {
                 });
 
                 const upload_req = {};
-                upload_req.user_id = 1; // TODO: link this shit 
+                upload_req.user_id = localStorage.getItem("user_id");
                 upload_req.caption = document.getElementById("title_input_bar")?.value;
                 upload_req.descriptions = document.getElementById("description_input_bar")?.value;
                 upload_req.media_paths = uploadedMedias.media_paths;

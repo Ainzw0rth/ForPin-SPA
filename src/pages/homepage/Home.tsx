@@ -81,14 +81,14 @@ function Home() {
                     prev_button.className = "prev_button";
                     prev_button.textContent = "<";
                     prev_button.addEventListener("click", () => {
-                        nextSlides(1, -1);
+                        nextSlides(post.post_id, -1);
                     }); 
 
                     const next_button = document.createElement('a');
                     next_button.className = "next_button";
                     next_button.textContent = ">";
                     next_button.addEventListener("click", () => {
-                        nextSlides(1, 1);
+                        nextSlides(post.post_id, 1);
                     }); 
                     
                     // the media posted

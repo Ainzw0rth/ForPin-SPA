@@ -49,3 +49,8 @@
     align-items: center;
     min-height: 100vh;
   }
+
+  .warning_label {
+    color: red;
+    display: none;
+  }
