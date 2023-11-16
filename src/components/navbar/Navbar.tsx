@@ -35,7 +35,7 @@ function Navbar() {
         <div className='navbar'>
             <div className="logo_section">
                 <button className="logo" id="forpin_home_button" onClick={goToHome}>
-                    <img src="public/logo.png" className="app_logo" alt="ForPin Logo" />
+                    <img src="logo.png" className="app_logo" alt="ForPin Logo" />
                 </button>
                 <div className="nav_buttons_container">
                     <button className="home_button" id="home_button" onClick={goToHome}>Home</button>
@@ -53,11 +53,11 @@ function Navbar() {
             </div>
             <div className="profile_section">
                 <button className="profile_button" id="profile-button">
-                    <img src="public/profile pic.gif" className="app_logo" alt="ForPin Logo" />
+                    <img src="profile pic.gif" className="app_logo" alt="ForPin Logo" />
                 </button>
                 <div className="settings-menu">
                     <button className="settings-dropdown" onClick={toggleDropdown}>
-                        <img src="/public/dropdown_sign.png" className="dropdown_symbol" id="dropdownsymbol" alt="dropdown symbol"/>
+                        <img src="/dropdown_sign.png" className="dropdown_symbol" id="dropdownsymbol" alt="dropdown symbol"/>
                     </button>
                     <div id="menus-from-dropdown" className="menusdropdown">
                         <a id="request" onClick={goToReq}>Requests</a>

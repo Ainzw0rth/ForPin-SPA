@@ -7,9 +7,18 @@
 }
 
 .temporary_uploaded_post {
-  background-color: #1F1F1F;
-  border-radius: 30px;
   cursor: pointer;
+  max-width: 500px;
+}
+
+.upload_container {
+  border-radius: 30px;
+  background-color: #1F1F1F;
+}
+
+.upload_image {
+  width: 100%;
+  border-radius: 15px;
 }
 
 .temporary_uploaded_post_details {
@@ -96,4 +105,13 @@
     width: 95%;
 
   }
+}
+
+input[type="file"] {
+  display: none;
+}
+
+/* Style the file name display */
+.file-name {
+  margin-top: 10px;
 }
