@@ -1,0 +1,74 @@
+/* FOLLOW REQUESTS */
+.requests_list_section {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user_follow_request {
+  width: 450px;
+  height: 60px;
+  background-color: #1F1F1F;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.user_follow_request_profile{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user_follow_request_profile_pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user_follow_request_profile_name {
+  font-size: 16px;
+}
+
+.user_follow_request_buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.accept_button {
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  font-style: strong;
+  font-weight: bold;
+}
+
+.accept_button:hover {
+  background-color: gray;
+}
+
+.reject_button {
+  border: none;
+  background-color: rgb(201, 0, 0);
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-style: strong;
+  font-weight: bold;
+}
+
+.reject_button:hover {
+  background-color: rgb(145, 0, 0);
+}
