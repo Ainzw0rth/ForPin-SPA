@@ -14,7 +14,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
 
             <div className='followed_user'>
@@ -22,7 +22,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
 
             <div className='followed_user'>
@@ -30,7 +30,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
 
             <div className='followed_user'>
@@ -38,7 +38,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
 
             <div className='followed_user'>
@@ -46,7 +46,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
 
             <div className='followed_user'>
@@ -54,7 +54,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
 
             <div className='followed_user'>
@@ -62,7 +62,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
 
             <div className='followed_user'>
@@ -70,7 +70,7 @@ function Following() {
                     <img src="public/profile pic.gif" alt="profile picture" className='followed_user_detail_profile_pic'/>
                     <h3 className='followed_user_detail_profile_name'>Ceritanya username</h3>
                 </div>
-                <button className='follow_button'>Unfollow</button>
+                <button className='unfollow_button'>Unfollow</button>
             </div>
         </div>
         </>

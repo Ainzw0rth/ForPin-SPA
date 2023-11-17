@@ -26,6 +26,11 @@ function Navbar() {
         window.location.href ='http://localhost:5173/request';
     };
 
+    function goToFollowing() {
+        window.location.href ='http://localhost:5173/following';
+    };
+
+
     function goToSearch(event) {
         event.preventDefault();
         window.location.href ='http://localhost:5173/search';
@@ -57,7 +62,7 @@ function Navbar() {
                 </form>
             </div>
             <div className="profile_section">
-                <button className="profile_button" id="profile-button">
+                <button className="profile_button" id="profile-button" onClick={goToFollowing}>
                     <img src={localStorage.getItem("user_profile")} className="app_logo" alt="ForPin Logo" />
                 </button>
                 <div className="settings-menu">

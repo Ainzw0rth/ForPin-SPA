@@ -39,7 +39,7 @@
 
 .follow_button {
   border: none;
-  background-color: white;
+  background-color: #77D4F8;
   border-radius: 20px;
   cursor: pointer;
   color: black;
@@ -49,5 +49,5 @@
 }
 
 .follow_button:hover {
-  background-color: gray;
+  opacity: 0.5      ;
 }
